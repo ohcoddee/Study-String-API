@@ -9,7 +9,7 @@ console.log(helloWorld[1]); // e
 console.log(helloWorld.indexOf("o")); // 4 - 첫 index를 반환하고 존재하지 않으면 -1을 반환
 console.log(helloWorld.indexOf("o", 5)); // 7 - 5번째 위치부터 index를 찾음
 console.log(helloWorld.lastIndexOf("o")); // 7 - 맨 뒤부터 역순으로 탐색하여 최초로 마주치는 인덱스 반환, 일치하는 부분을 찾을 수 없으면 -1 반환
-console.log(helloWorld.includes("Hello")); // true - 배열이 "hello"를 포함하는지 판별 - true, false로 반환
+console.log(helloWorld.includes("World")); // true - 배열이 "World"를 포함하는지 판별 - true, false로 반환
 
 //문자열 변환, 문자열 치환
 console.log(helloWorld.toUpperCase()); // HELLO WORLD!
